@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:O,mm:h}=window,M=new O.Toolbar;M.attach(h);const oe=M.render();oe.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(oe)})})()</script><script>((i,L,f,r)=>{const w=i();window.mm=w.Markmap.create("svg#mindmap",(L||w.deriveOptions)(r),f)})(()=>window.markmap,null,{"content":"Métodos de Evaluación de Proyectos","children":[{"content":"Pasos para la Evaluación de Proyectos","children":[{"content":"Generación de Propuestas","children":[],"payload":{"lines":"3,4"}},{"content":"Revisión y Análisis","children":[],"payload":{"lines":"4,5"}},{"content":"Toma de Decisiones","children":[],"payload":{"lines":"5,6"}},{"content":"Implementación","children":[],"payload":{"lines":"6,7"}},{"content":"Seguimiento","children":[],"payload":{"lines":"7,9"}}],"payload":{"lines":"2,3"}},{"content":"¿Cuándo un proyecto es atractivo?","children":[{"content":"Cuando se recupera la inversión","children":[],"payload":{"lines":"10,11"}},{"content":"Se paga por el uso del dinero","children":[],"payload":{"lines":"11,12"}},{"content":"Se obtiene un excedente tomando en cuenta el nivel de riesgo asociado o asumido del proyecto","children":[],"payload":{"lines":"12,14"}}],"payload":{"lines":"9,10"}},{"content":"Tasa de descuento de los flujos de caja","children":[{"content":"Costo de la deuda (rD)","children":[],"payload":{"lines":"15,16"}},{"content":"Costo del patrimonio (rE)","children":[],"payload":{"lines":"16,17"}},{"content":"WACC (Costo de capital)","children":[],"payload":{"lines":"17,19"}}],"payload":{"lines":"14,15"}},{"content":"Estimación de los flujos de caja libre futuros","children":[{"content":"Los ingresos por ventas se proyectan o usando una tasa de crecimiento promedio o desglosado (precios ajustados por inflación y cantidades ajustadas por el crecimiento de la demanda)","children":[],"payload":{"lines":"20,21"}},{"content":"El costo de ventas se suele proyectar como un porcentaje de las ventas ya que suelen comportarse de manera similar","children":[],"payload":{"lines":"21,22"}},{"content":"Los gastos asociados a las ventas se proyectan como un porcentaje de las ventas y los no asociados se proyectan por inflación (como los costos fijos y los gastos de administración)","children":[],"payload":{"lines":"22,23"}},{"content":"El CAPEX será único al considerarse la valoración","children":[],"payload":{"lines":"23,25"}}],"payload":{"lines":"19,20"}},{"content":"Formulas asociadas a las proyecciones","children":[{"content":"Ventasn = Ventasn-1 · (1 + tasa de crecimiento)","children":[],"payload":{"lines":"26,27"}},{"content":"Ventasn = Precion · Cantidadn","children":[],"payload":{"lines":"27,28"}},{"content":"CV Ventas = Costo de Ventas","children":[],"payload":{"lines":"28,29"}},{"content":"GV = Ventas/Ventas Netas · 100","children":[],"payload":{"lines":"29,30"}},{"content":"Gasto de Ventas = Ventas Netas · 100","children":[],"payload":{"lines":"30,31"}},{"content":"Gastos administrativosn = Gastos administrativosn-1 · (1 + tasa de inflación)","children":[],"payload":{"lines":"31,32"}},{"content":"Costo del Activo (CAPEX) = Gasto de depreciación/Vida útil (Años)","children":[],"payload":{"lines":"32,33"}},{"content":"Gasto ISLRn = UAI . t","children":[],"payload":{"lines":"33,34"}}],"payload":{"lines":"25,26"}}],"payload":{"lines":"1,2"}},{"maxWidth":300})</script>
+</body>
+</html>
